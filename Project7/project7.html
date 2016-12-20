@@ -1,6 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="project7.css">
+    <title>
+        Drawing Program
+    </title>
+</head>
 
-  <svg class="canvas" id="canvas-one" width="80%" viewBox="0 0 400 200">
+<body>
+  <div id="programcontainer">
+    <div id="drawingarea">
+      <svg id="screen" width="70%" viewBox="0 0 800 400">
+      </svg>
+    </div>
+    <div id="optionsarea">
+      <select class="selector" id ="colorSelect">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+      <select class="selector" id ="shapeSelect">
+        <option value="square">Square</option>
+        <option value="circle">Circle</option>
+      </select>
+      <select id ="sizeSelect">
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+  </div>
 
-
-
-  </svg>
+<script src="project7.js"></script>
+</body>
+</html>
